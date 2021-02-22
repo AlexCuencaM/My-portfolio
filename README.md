@@ -6,3 +6,4 @@ This page is developed on technology such as HTML, CSS and JS, with a bit help f
 
 You doesn't need install anything.
 
+Adding to github pages
