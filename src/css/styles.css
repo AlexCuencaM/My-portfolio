@@ -1,6 +1,8 @@
 :root{
     --color-primary: #FF6464;
+    --color-primary-focus:#d45454;
     --color-secondary: #00A8CC;
+    --color-secondary-focus: #108099;
     --color-dark: #21243D;
     --color-light: #8695A4;
     --color-dark-blue: #142850;
@@ -31,7 +33,7 @@ body{
 .container-details{
     justify-items: start;
 }
-.button-menu,.button-resume, .social-media__link{
+.button-resume, .social-media__link{
     cursor: pointer;
 }
 
@@ -45,6 +47,10 @@ body{
     font-size: 20px;
     font-weight: 500;    
 }
+.button-resume:focus{
+    background: var(--color-primary-focus);
+}
+
 .paragraph{
     font-weight: 400;
     line-height: 23.5px;
@@ -87,10 +93,29 @@ body{
     line-height: 60px;
     font-weight: 900;
 }
+.year-publish__secondary{
+    background: var(--color-primary);
+}
+
 .works-category{
     color:var(--color-light);
     line-height: 1.5em;
     margin: 0 1em;
+}
+.works-category__link{
+    text-decoration: none;
+}
+.works-category__link:focus,
+.works-category__link:hover{
+    color: var(--color-secondary-focus);
+}
+.works__paragraph{
+    text-align: left;
+}
+
+.works-category__detail{
+    font-weight: 400;
+    color: var(--color-dark);
 }
 .footer{
     margin-top: auto;
@@ -101,31 +126,6 @@ body{
     align-items:center;
     justify-content:space-evenly;
     padding: 1rem;
-    
-}
-.copyright{
-    font-weight: 400;
-    font-size: .9em;
-    text-align: center;
-    
-}
-
-.works__paragraph{
-    text-align: left;
-}
-.year-publish__secondary{
-    background: var(--color-primary);
-}
-.works-category__detail{
-    font-weight: 400;
-    color: var(--color-dark);
-}
-.container__item:nth-child(2){
-    padding: 0 1rem;
-}
-
-.container-details__item:nth-child(6){
-    justify-self: center;
 }
 .social-media__link{
     color: var(--color-dark);
@@ -134,6 +134,23 @@ body{
     color: var(--color-primary);
 }
 
+.copyright{
+    font-weight: 400;
+    font-size: .9em;
+    text-align: center;
+}
+
+.container__item:nth-child(2){
+    padding: 0 1rem;
+}
+
+.container-details__item:nth-child(6){
+    justify-self: center;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:var(--color-dark);
+}
 .navbar-light .navbar-nav .nav-link:hover{
     color:var(--color-primary)
 }
