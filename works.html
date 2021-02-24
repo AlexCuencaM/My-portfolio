@@ -17,66 +17,80 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid justify-content-end">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
-            <ul class="container-fluid justify-content-end navbar-nav">
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="./works.html">Works</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
-            </ul>
-        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+        <ul class="container-fluid justify-content-end navbar-nav">
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./works.html">Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+        </ul>
+      </div>
     </div>
-</nav>
-
-  <div class="container">
-    <div class="container__item">
-      <h1 class="presentation presentation__work">Works</h1>
-    </div>
-    <div class="container__item works works__container">
+  </nav>
+  <div class="container-details">
+    <h1 class="presentation presentation__work">Works</h1>
+    <div class="works-container">
       <div class="works__items">
-        <h2 class="title-work">photovoltaic system calculator</h2>
+        <img class="img-work" src="assets/img/clinic_system.png" alt="SFV calculator">
       </div>
       <div class="works__items">
-        <img class="img-work" src="assets/img/SFV_calculator.png" alt="SFV calculator">
+        <h2 class="title-work">clinic system</h2>
       </div>
-        <div class="works_items">
-          <span class="year-publish">2019</span> <a class="works-category works-category__link"
-          href="./works_details.html">Website</a>
-        </div>
-        <div class="works__items">
-          <p class="paragraph works__paragraph">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae tempora
-            impedit consequatur ipsa ad esse sequi asperiores veniam repellendus quod numquam animi quisquam
-            mollitia cumque rem voluptas, maiores commodi possimus.</p>
-        </div>
-    </div>
-    
-    <div class="container__item">
-      <div class="works__items"><h2 class="title-work">clinic system</h2></div>
-      
-      <div class="works__items"><img class="img-work" src="assets/img/clinic_system.png" alt="SFV calculator"></div>
-      
-      <div class="works__items"><span class="year-publish">2021</span> <span class="works-category">Website</span></div>
-      
+  
+      <div class="works__items">
+        <span class="year-publish">2021</span>
+        <span class="works-category">Website</span>
+      </div>
       <div class="works__items">
         <p class="paragraph works__paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae tempora
           impedit consequatur ipsa ad esse sequi asperiores veniam repellendus quod numquam animi quisquam
           mollitia cumque rem voluptas, maiores commodi possimus.</p>
       </div>
+    </div>
+
+    <div class="works-container">
+      <div class="works__items">
+        <img class="img-work" src="assets/img/SFV_calculator.png" alt="SFV calculator">
       </div>
-      
-    <div class="container__item">
-      <h2 class="title-work">Improve aesthetics with bootstrap</h2>
-      <img class="img-work" src="assets/img/frontend-bootstrap.png" alt="SFV calculator">
-      <span class="year-publish">2020</span> <span class="works-category">Website</span>
-      <p class="paragraph works__paragraph">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae tempora
-        impedit consequatur ipsa ad esse sequi asperiores veniam repellendus quod numquam animi quisquam
-        mollitia cumque rem voluptas, maiores commodi possimus.</p>
+      <div class="works__items">
+        <h2 class="title-work">photovoltaic system calculator</h2>
+      </div>
+  
+      <div class="works__items">
+        <span class="year-publish">2019</span>
+        <a class="works-category works-category__link"
+          href="./works_details.html">Website</a>
+      </div>
+      <div class="works__items">
+        <p class="paragraph works__paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae tempora
+          impedit consequatur ipsa ad esse sequi asperiores veniam repellendus quod numquam animi quisquam
+          mollitia cumque rem voluptas, maiores commodi possimus.</p>
+      </div>
+    </div>
+
+    <div class="works-container">
+      <div class="works__items">
+        <img class="img-work" src="assets/img/frontend-bootstrap.png" alt="eir Prediction">
+      </div>
+      <div class="works__items">
+        <h2 class="title-work">Improve aesthetics with bootstrap</h2>
+      </div>
+  
+      <div class="works__items">
+        <span class="year-publish">2021</span>
+        <span class="works-category">Website</span>
+      </div>
+      <div class="works__items">
+        <p class="paragraph works__paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae tempora
+          impedit consequatur ipsa ad esse sequi asperiores veniam repellendus quod numquam animi quisquam
+          mollitia cumque rem voluptas, maiores commodi possimus.</p>
+      </div>
     </div>
     <footer class="footer">
       <div class="social-media">
@@ -93,6 +107,26 @@
       <span class="copyright">Copyright ©2020 All rights reserved </span>
     </footer>
   </div>
+  
+  
+  <!-- <div class="container">
+    <div class="container__item">
+      
+    </div>
+    <div class="container__item works">
+   
+    
+    <div class="container__item">
+      
+      <img class="img-work" src="assets/img/frontend-bootstrap.png" alt="SFV calculator">
+      <span class="year-publish">2020</span> <span class="works-category">Website</span>
+      <p class="paragraph works__paragraph">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae tempora
+        impedit consequatur ipsa ad esse sequi asperiores veniam repellendus quod numquam animi quisquam
+        mollitia cumque rem voluptas, maiores commodi possimus.</p>
+    </div>
+    
+  </div> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
