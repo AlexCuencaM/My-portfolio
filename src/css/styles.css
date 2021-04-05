@@ -19,11 +19,11 @@ body{
     font-style: normal;
     color:var(--color-dark);
 }
-.container, .container-details{
+.container-index, .container-details{
     padding: 0 15vw;
     display: grid;
 }
-.container{
+.container-index{
     justify-items: center;
     
 }
@@ -174,11 +174,11 @@ body{
     padding-bottom: 1.5rem;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 768px){
     body{
         font-size: 1.1m;
     }
-    .container{
+    .container-index{
         grid-template-columns: repeat(2,1fr);        
         justify-items:flex-start;        
         z-index: 1;
