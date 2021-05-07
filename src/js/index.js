@@ -1,6 +1,4 @@
-const boton = document.querySelector('#boton');
-const menu = document.querySelector('#menu');
-
-boton.addEventListener('click', () => {
-    menu.classList.toggle('hidden')
+document.getElementsByClassName("navbar__button")[0].addEventListener("click",()=>{
+    const list = document.getElementsByClassName("navbar__list")[0];
+    list.classList.toggle("active");
 })
