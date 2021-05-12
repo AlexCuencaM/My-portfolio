@@ -28,48 +28,34 @@ ul{
     list-style: none;
 }
 
-.navbar-responsive{
-    position: relative;
+.navbar__list{
     display: flex;
-    justify-content: flex-end;
-}
-.navbar__button{
-    background: white;
-    border: none;
-    margin: 1rem;
-    padding: .9rem 1rem;
-}
-.navbar__button:hover{
-    background: rgb(221, 221, 221);
-}
-
-.navbar-responsive .navbar__list{
-    display: none;
-    position: absolute;
-    top:100%;
-    right: 0;
-    width: 100%;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 1rem;
+    
 }
 .navbar__list-item{
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 .navbar__list-item a{
     color: var(--color-dark);
     text-decoration: none;
-    display: block;
+    transition: color .3s;
 }
 .navbar__list-item a:hover{
+    font-size: 1rem;
     color: var(--color-primary);
 }
 .navbar-responsive .active{
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
     z-index: 10;
     background: var(--color-bg);
+    
 }
-
 .container-index, .container-details{
     padding: 0 15vw;
     display: grid;
@@ -267,15 +253,13 @@ ul{
     body{
         font-size: 1.1m;
     }
-    .navbar-responsive .navbar__button{
-        display: none;
-    }
-    .navbar-responsive .navbar__list{
-        position: static;
+    .navbar__list{
         display: flex;
+        flex-direction: row;
         justify-content: flex-end;
         padding: 0 2rem;
     }
+
     .navbar__list-item{
         margin: 0 1rem;
         padding: 1rem .5rem;
