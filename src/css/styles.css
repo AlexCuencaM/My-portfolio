@@ -40,7 +40,6 @@ a{
     
 }
 .navbar__list-item{
-    flex: 1;
     padding: 1rem 0;
 }
 .navbar__list-item a{
@@ -263,7 +262,7 @@ a{
     }
 
     .navbar__list-item{
-        margin: 0 1rem;
+        margin: 0 2rem;
         padding: 1rem .5rem;
     }
 
@@ -318,11 +317,11 @@ a{
     }
     
     .title-work{
-        margin: 0;
+        /* margin: 0; */
     }
     /* img */
     .works__items:first-child{
-        padding: 1rem;
+        padding: 0 1rem;
         padding-left: 0;
         grid-row: 1 / 4;
     }
