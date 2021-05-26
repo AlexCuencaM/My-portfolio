@@ -1,6 +1,6 @@
 # About
 
-This page is developed on technology such as HTML, CSS and JS, with a bit help from Bootstrap v5 framework for navbar responsive
+This page is developed on technology such as HTML and CSS
 
 ## Installation
 
