@@ -27,7 +27,9 @@ img{
 ul{
     list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 .navbar__list{
     display: flex;
     flex-direction: column;
@@ -38,11 +40,11 @@ ul{
     
 }
 .navbar__list-item{
+    flex: 1;
     padding: 1rem 0;
 }
 .navbar__list-item a{
     color: var(--color-dark);
-    text-decoration: none;
     transition: color .3s;
 }
 .navbar__list-item a:hover{
@@ -57,7 +59,7 @@ ul{
     
 }
 .container-index, .container-details{
-    padding: 0 15vw;
+    padding: 0 10vw;
     display: grid;
 }
 .container-index{
@@ -287,9 +289,6 @@ ul{
     .featured-work{
         font-size: 1.2em;
     }
-    /* .img-profile{
-        min-height: 400px;
-    } */
     /* img index */
     .container__item:first-child{
         grid-column: 2;
